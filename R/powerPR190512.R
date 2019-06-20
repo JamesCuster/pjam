@@ -14,6 +14,9 @@ sim.design.fn <- function(x) {
   return(data.frame(x))
 }
 
+foo <- list(apple = c("hello", "world"), bannana = c("green", "yellow", "brown"), orange = c("blood", "small"))
+# This function may be doing what expand grid does
+expand.grid(foo)
 
 # Possible alternative...not sure because I'm not sure what the ultimate goal is
 alternative <- function(x) {

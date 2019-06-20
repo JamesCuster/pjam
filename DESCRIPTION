@@ -1,10 +1,12 @@
 Package: pjam
 Title: What the Package Does (one line, title case)
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Authors@R: person("James", "Custer", email = "James.Custer@austin.utexas.edu", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
-Depends: R (>= 3.5.3)
+Depends: R (>= 3.5.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
+Imports: 
+    stats

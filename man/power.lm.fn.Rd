@@ -4,29 +4,28 @@
 \alias{power.lm.fn}
 \title{Compute power in linear model}
 \usage{
-power.lm.fn(n, alpha, dfTest, dfAdj, R2full, R2red)
+power.lm.fn(n, alpha, df.test, df.adj, r2.full, r2.red)
 }
 \arguments{
 \item{n}{sample size}
 
 \item{alpha}{significance level (type 1 error rate)}
 
-\item{dfTest}{number of degrees of freedom for test}
+\item{df.test}{number of degrees of freedom for test}
 
-\item{dfAdj}{adjusted degrees of freedom}
+\item{df.adj}{adjusted degrees of freedom}
 
-\item{R2full}{r squared full}
+\item{r2.full}{r squared full}
 
-\item{R2red}{r squared reduced}
+\item{r2.red}{r squared reduced}
 }
 \value{
-Compute power in linear model (more description)SSDFDS SDFO SDFO
-  IDIOJSD FSKD SODIFJ SOIJS DOFI OSDIFJS D
+Compute power in linear model (more description)
 }
 \description{
-Compute power in linear model
+Slightly longer description here
 }
 \examples{
-power.lm.fn(n = 180, alpha = 0.05, dfTest = 2, dfAdj = 4 + 1, R2full = 0.1, R2red = 0)
+power.lm.fn(n = 180, alpha = 0.05, df.test = 2, df.adj = 4 + 1, r2.full = 0.1, r2.red = 0)
 
 }

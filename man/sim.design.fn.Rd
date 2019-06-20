@@ -13,5 +13,6 @@ sim.design.fn(x)
 A longer description of what the function does can go here.
 }
 \description{
-Design Constructor (breif description goes here)
+You can add a slightly longer description here which is displayed underneath
+the brief description
 }

@@ -77,6 +77,8 @@ power.lm.fn <- function(n, alpha, df.test, df.adj, r2.full, r2.red) {
 #'
 #' Detailed explanation of what the function does and how
 #'
+#' @export
+#'
 d2rsq <- function(d, p) {
   a <- 1 / (p * (1 - p))
   rsq <- d ^ 2 / (a + d ^ 2)
@@ -104,6 +106,8 @@ d2rsq <- function(d, p) {
 #'   squared values. If \code{TRUE} the function returns a \code{data.frame}
 #'   containing all Cohen's d values and proportions with corresponding R
 #'   squared values.
+#'
+#' @export
 #'
 d2rsq.2 <- function(d, p = NULL, var.names = NULL, expand = FALSE, return.df = FALSE) {
   # checks on data.frame (retrieves d and p as numeric vectors)
